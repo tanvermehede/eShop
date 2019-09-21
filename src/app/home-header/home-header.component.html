@@ -1,0 +1,49 @@
+Header: <input type="checkbox" (click)="showHeaderOne()">
+<input type="checkbox" (click)="showHeaderTwo()">
+<input type="checkbox" (click)="showHeaderThree()">
+<nav class="navbar navbar-expand-sm" *ngIf="headerOne">
+    <span class="navbar-text nav-one-text">
+        Welcome to angular eShop
+    </span>
+    <ul class="navbar-nav ml-auto">
+        <li class="nav-item">
+            <a class="nav-link" href="#"><i class="fas fa-store-alt icon"></i>Shop</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="#"><i class="far fa-heart icon"></i>Wishlist</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="#"><i class="far fa-user icon"></i>My Account</a>
+        </li>
+    </ul>
+</nav>
+<nav class="navbar navbar-expand-sm justify-content-center bg-color" *ngIf="headerTwo">
+    <ul class="navbar-nav">
+        <li class="nav-item">
+            <a class="nav-link" href="#">Welcome to angular eShop</a>
+        </li>
+    </ul>
+</nav>
+<nav class="navbar navbar-expand-sm" *ngIf="headerThree">
+    <ul class="navbar-nav">
+        <li class="nav-item">
+            <i class="fas fa-phone icon"></i>
+            <span class="navbar-text">+8801756531188</span>
+        </li>
+        <li class="nav-item">
+            <i class="far fa-envelope icon"></i>
+            <span class="navbar-text">tanvermehede@outlook.com</span>
+        </li>
+    </ul>
+    <ul class="navbar-nav ml-auto">
+        <li class="nav-item">
+            <a class="nav-link" href="#"><i class="fas fa-store-alt icon"></i>Shop</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="#"><i class="far fa-heart icon"></i>Wishlist</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="#"><i class="far fa-user icon"></i>My Account</a>
+        </li>
+    </ul>
+</nav>

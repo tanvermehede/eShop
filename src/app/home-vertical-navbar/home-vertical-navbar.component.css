@@ -1,0 +1,9 @@
+.nav-box{
+    margin-left: 114px;
+    border: 1px silver;
+    width: 200px;
+    height: 344px;
+    position: absolute;
+    box-shadow: 0 0 2px 0 rgba(0,0,0,.25);
+    background-color: #fff;
+}
